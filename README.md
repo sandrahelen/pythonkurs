@@ -3,7 +3,7 @@
 
 Introduksjon til programmering i Python.
 
-Ressurser:
+### Ressurser:
 **ProFag:U**
 https://trix.ifi.uio.no/course/13
 Etterutdanning i realfaglig programmering for ungdomstrinnet. Vi setter faget i sentrum. Programmeringen skal bidra til styrking og utvikling av fagene naturfag og matematikk. https://uio.instructure.com/courses/22425 
