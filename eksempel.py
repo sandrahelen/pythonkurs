@@ -48,6 +48,7 @@ print("2 * 2 + 1 =", 2 * 2 + 1)
 
 #Mattefunksjoner
 print("√4 =", sqrt(4))
+print("Avrunding: 2.345 =", round(2.345))
 print("Tilfeldig tall mellom 1 og 10:", randint(10))
 
 print("-" * 20)
@@ -113,20 +114,26 @@ def funksjon(tall):
 
 funksjon(3) #kaller på funksjonen
 
+
 print("-" * 20)
 
 '''11. Grafer'''
+#liste med x verdier (min, maks, antall verdier)
 x = linspace(-5, 5, 3)
 y = 2*x + 1
 plot(x, y)
 grid()
 show()  #virker ikke i repl.it
-savefig('plot.png')
-
-
-
+#savefig('plot.png')
+print("Tegner grafen y = 2x + 1")
 print("-" * 20)
 
 '''12. Figurer'''
-
-print("-" * 20)
+#Turtle tegneverktøy
+'''
+forward(50)   #tegner strek
+left(90)      #snur 90 grader mot venstre
+forward(10)
+right(30)     #snur 30 grader mot høyre
+forward(30)
+'''
