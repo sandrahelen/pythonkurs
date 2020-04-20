@@ -54,14 +54,14 @@ print("Tilfeldig tall mellom 1 og 10:", randint(10))
 print("-" * 20)
 
 '''5. Skriv inn tekst'''
-'''inp = input("Skriv et heltall: ")
+inp = input("Skriv et heltall: ")
 x = int(inp) #gjør om til heltall
 
 inp = input("Skriv et desimaltall: ")
 y = float(inp) #gjør om til desimaltall
 print("x + y =", x + y)
 
-print("-" * 20)'''
+print("-" * 20)
 
 '''6. If-setninger'''
 #gjøre sammenlikninger
@@ -114,7 +114,6 @@ def funksjon(tall):
 
 funksjon(3) #kaller på funksjonen
 
-
 print("-" * 20)
 
 '''11. Grafer'''
@@ -124,16 +123,16 @@ y = 2*x + 1
 plot(x, y)
 grid()
 show()  #virker ikke i repl.it
-#savefig('plot.png')
+savefig('plot.png')
 print("Tegner grafen y = 2x + 1")
 print("-" * 20)
 
 '''12. Figurer'''
 #Turtle tegneverktøy
-'''
+
 forward(50)   #tegner strek
 left(90)      #snur 90 grader mot venstre
 forward(10)
 right(30)     #snur 30 grader mot høyre
 forward(30)
-'''
+
