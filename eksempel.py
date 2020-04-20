@@ -1,5 +1,4 @@
 from pylab import * #importerer mattefunksjoner
-from matplotlib import pyplot as plt
 from turtle import * #importerer tegnefunksjoner
 
 '''1. Print'''
@@ -118,9 +117,9 @@ print("-" * 20)
 
 '''11. Grafer'''
 x = linspace(-5, 5, 3)
-y = 2*x + 1
+y = 2*x + 2
 plot(x, y)
-plt.savefig('plot.png')
+savefig('plot.png')
 
 
 
