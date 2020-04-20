@@ -117,7 +117,7 @@ print("-" * 20)
 
 '''11. Grafer'''
 x = linspace(-5, 5, 3)
-y = 2*x + 2
+y = 2**2*x + 2*x + 1
 plot(x, y)
 savefig('plot.png')
 
