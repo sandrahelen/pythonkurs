@@ -8,6 +8,9 @@ print("Hei", 1)     #tekst og tall
 print(1.45)         #desimaltall
 print(True)         #boolsk variabel
 
+#Dette er en kommentar
+'''Dette er en kommentar
+som kan gå over flere linjer'''
 
 print("-" * 20)
 
@@ -128,11 +131,6 @@ print("Tegner grafen y = 2x + 1")
 print("-" * 20)
 
 '''12. Figurer'''
-#Turtle tegneverktøy
-
-forward(50)   #tegner strek
-left(90)      #snur 90 grader mot venstre
-forward(10)
-right(30)     #snur 30 grader mot høyre
-forward(30)
-
+#Turtle tegneverktøy.
+#MÅ kjøres i et eget repl: new repl -> velg/søk: python with turtle
+#Se egen eksempelfil
