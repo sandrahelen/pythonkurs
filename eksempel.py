@@ -134,12 +134,7 @@ print("Tegner grafen y = 2x + 1")
 print("-" * 20)
 
 '''12. Figurer'''
-<<<<<<< HEAD
-#Turtle tegneverktøy
-#Se egen fil
-
-=======
 #Turtle tegneverktøy.
+
+#Se egen turtle.py for eksempelkode
 #MÅ kjøres i et eget repl: new repl -> velg/søk: python with turtle
-#Se egen eksempelfil
->>>>>>> origin/master
