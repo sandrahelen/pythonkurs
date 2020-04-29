@@ -1,4 +1,5 @@
 from pylab import * #importerer mattefunksjoner
+import matplotlib.pyplot as plt #for å kunne lagre graf
 from turtle import * #importerer tegnefunksjoner
 
 '''1. Print'''
@@ -123,14 +124,22 @@ print("-" * 20)
 #liste med x verdier (min, maks, antall verdier)
 x = linspace(-5, 5, 3)
 y = 2*x + 1
+#2. gradsfunksjon: y = x^2 + 2x + 1
+                  #y = x**2 + 2*x + 1 
 plot(x, y)
 grid()
 show()  #virker ikke i repl.it
-savefig('plot.png')
+plt.savefig('plot.png') #må derfor lagre grafen som bilde
 print("Tegner grafen y = 2x + 1")
 print("-" * 20)
 
 '''12. Figurer'''
+<<<<<<< HEAD
+#Turtle tegneverktøy
+#Se egen fil
+
+=======
 #Turtle tegneverktøy.
 #MÅ kjøres i et eget repl: new repl -> velg/søk: python with turtle
 #Se egen eksempelfil
+>>>>>>> origin/master
